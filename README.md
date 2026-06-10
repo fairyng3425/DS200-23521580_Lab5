@@ -3,8 +3,8 @@
 ## 1. Thông tin bài làm
 
 * Môn học: DS200 - Big Data
-* Bài thực hành: Lab 5
-* MSSV: 23521580
+* Lab 5
+* Tên: Nguyễn Văn Tiên - MSSV: 23521580
 * Chủ đề: Xây dựng hệ thống đếm số người trong video theo hướng xử lý luồng dữ liệu.
 
 ## 2. Mục tiêu
