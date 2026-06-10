@@ -1,0 +1,16 @@
+from pathlib import Path
+
+BASE_DIR = Path(__file__).resolve().parents[1]
+DATA_DIR = BASE_DIR / "data"
+VIDEO_DIR = DATA_DIR / "video"
+OUTPUT_DIR = BASE_DIR / "output"
+EXPERIMENTS_DIR = OUTPUT_DIR / "experiments"
+
+DEFAULT_PROCESS_HOST = "127.0.0.1"
+DEFAULT_PROCESS_PORT = 6200
+DEFAULT_STORAGE_HOST = "127.0.0.1"
+DEFAULT_STORAGE_PORT = 6300
+
+DEFAULT_CAMERA_ID = "camera_01"
+DEFAULT_MODEL = "yolov8n.pt"
+PERSON_CLASS_ID = 0

@@ -1,0 +1,16 @@
+{
+  "generated_at": "2026-06-11T01:38:06",
+  "engine": "python_fallback",
+  "fallback_reason": "Java hiện tại là 8, PySpark mới cần Java 17; dùng Python fallback",
+  "frames_processed": 150,
+  "total_person_detections": 481,
+  "avg_persons_per_frame": 3.2067,
+  "max_persons_in_frame": 8,
+  "min_persons_in_frame": 0,
+  "avg_processing_time_ms": 72.7269,
+  "files": {
+    "report_summary": "output\\experiments\\sidewalk_20260611_013714\\report\\report_summary.json",
+    "frames_by_person_count": "output\\experiments\\sidewalk_20260611_013714\\report\\frames_by_person_count.csv",
+    "frame_level_report": "output\\experiments\\sidewalk_20260611_013714\\report\\frame_level_report.csv"
+  }
+}

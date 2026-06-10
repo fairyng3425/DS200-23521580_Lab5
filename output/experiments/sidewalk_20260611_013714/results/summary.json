@@ -1,0 +1,21 @@
+{
+  "generated_at": "2026-06-11T01:38:03",
+  "experiment_name": "sidewalk_20260611_013714",
+  "camera_id": "camera_01",
+  "source": "data\\video\\sidewalk.mp4",
+  "frames_processed": 150,
+  "total_person_detections": 481,
+  "avg_persons_per_frame": 3.2067,
+  "max_persons_in_frame": 8,
+  "min_persons_in_frame": 0,
+  "avg_processing_time_ms": 72.7269,
+  "max_processing_time_ms": 129.79,
+  "min_processing_time_ms": 46.23,
+  "running_time_seconds": 32.32,
+  "files": {
+    "jsonl": "output\\experiments\\sidewalk_20260611_013714\\results\\detections.jsonl",
+    "csv": "output\\experiments\\sidewalk_20260611_013714\\results\\detections.csv",
+    "summary": "output\\experiments\\sidewalk_20260611_013714\\results\\summary.json",
+    "annotated_frames_dir": "output\\experiments\\sidewalk_20260611_013714\\annotated_frames"
+  }
+}

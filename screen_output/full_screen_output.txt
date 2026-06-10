@@ -1,0 +1,1445 @@
+================================================================================
+[RunAll] (1/3) Chạy video: city_square.mp4
+================================================================================
+[Demo] Start Storage Server: C:\Users\nguye\Downloads\DS200_Lab05\.venv\Scripts\python.exe src/storage_server.py --host 127.0.0.1 --port 6300
+[Storage] Đang lắng nghe tại 127.0.0.1:6300
+[Storage] Mỗi video sẽ được lưu riêng trong output\experiments\<experiment_name>
+[Storage] Nhấn Ctrl+C để dừng.
+[Demo] Start Processing Server: C:\Users\nguye\Downloads\DS200_Lab05\.venv\Scripts\python.exe src/processing_server.py --host 127.0.0.1 --port 6200 --storage-host 127.0.0.1 --storage-port 6300 --conf 0.25 --save-annotated
+[Processing] Đã tải model YOLO: yolov8n.pt
+[Processing] Đã kết nối Storage Server tại 127.0.0.1:6300
+[Storage] Processing Server đã kết nối từ ('127.0.0.1', 50107)
+[Processing] Đang lắng nghe frame tại 127.0.0.1:6200
+[Processing] Nhấn Ctrl+C để dừng.
+[FrameServer] Đã kết nối Processing Server tại 127.0.0.1:6200
+[Processing] Frame Server đã kết nối từ ('127.0.0.1', 53225)
+[FrameServer] Source: data\video\city_square.mp4
+[FrameServer] Experiment: city_square_20260611_013521
+[FrameServer] Đã gửi frame 1
+[FrameServer] Đã gửi frame 2
+[Processing] Frame 1: phát hiện 14 người, 279.0 ms
+[Storage] Tạo thư mục lưu kết quả cho experiment: city_square_20260611_013521
+[Storage] Lưu frame 1 - person_count=14
+[Processing] Frame 2: phát hiện 14 người, 48.05 ms
+[Storage] Lưu frame 2 - person_count=14
+[FrameServer] Đã gửi frame 3
+[Processing] Frame 3: phát hiện 14 người, 48.65 ms
+[Storage] Lưu frame 3 - person_count=14
+[FrameServer] Đã gửi frame 4
+[Processing] Frame 4: phát hiện 15 người, 42.71 ms
+[Storage] Lưu frame 4 - person_count=15
+[FrameServer] Đã gửi frame 5
+[Processing] Frame 5: phát hiện 15 người, 43.43 ms
+[Storage] Lưu frame 5 - person_count=15
+[FrameServer] Đã gửi frame 6
+[Processing] Frame 6: phát hiện 16 người, 49.82 ms
+[Storage] Lưu frame 6 - person_count=16
+[FrameServer] Đã gửi frame 7
+[Processing] Frame 7: phát hiện 16 người, 48.99 ms
+[Storage] Lưu frame 7 - person_count=16
+[FrameServer] Đã gửi frame 8
+[Processing] Frame 8: phát hiện 16 người, 54.8 ms
+[Storage] Lưu frame 8 - person_count=16
+[FrameServer] Đã gửi frame 9
+[Processing] Frame 9: phát hiện 16 người, 48.12 ms
+[Storage] Lưu frame 9 - person_count=16
+[FrameServer] Đã gửi frame 10
+[Processing] Frame 10: phát hiện 17 người, 47.23 ms
+[Storage] Lưu frame 10 - person_count=17
+[FrameServer] Đã gửi frame 11
+[Processing] Frame 11: phát hiện 16 người, 51.68 ms
+[Storage] Lưu frame 11 - person_count=16
+[FrameServer] Đã gửi frame 12
+[Processing] Frame 12: phát hiện 17 người, 64.13 ms
+[Storage] Lưu frame 12 - person_count=17
+[FrameServer] Đã gửi frame 13
+[Processing] Frame 13: phát hiện 19 người, 85.06 ms
+[Storage] Lưu frame 13 - person_count=19
+[FrameServer] Đã gửi frame 14
+[Processing] Frame 14: phát hiện 16 người, 94.27 ms
+[Storage] Lưu frame 14 - person_count=16
+[FrameServer] Đã gửi frame 15
+[Processing] Frame 15: phát hiện 17 người, 96.53 ms
+[Storage] Lưu frame 15 - person_count=17
+[FrameServer] Đã gửi frame 16
+[Processing] Frame 16: phát hiện 18 người, 81.87 ms
+[Storage] Lưu frame 16 - person_count=18
+[FrameServer] Đã gửi frame 17
+[Processing] Frame 17: phát hiện 18 người, 76.54 ms
+[Storage] Lưu frame 17 - person_count=18
+[FrameServer] Đã gửi frame 18
+[Processing] Frame 18: phát hiện 18 người, 105.34 ms
+[Storage] Lưu frame 18 - person_count=18
+[FrameServer] Đã gửi frame 19
+[Processing] Frame 19: phát hiện 18 người, 54.13 ms
+[Storage] Lưu frame 19 - person_count=18
+[FrameServer] Đã gửi frame 20
+[Processing] Frame 20: phát hiện 17 người, 62.2 ms
+[Storage] Lưu frame 20 - person_count=17
+[FrameServer] Đã gửi frame 21
+[Processing] Frame 21: phát hiện 17 người, 62.7 ms
+[Storage] Lưu frame 21 - person_count=17
+[FrameServer] Đã gửi frame 22
+[Processing] Frame 22: phát hiện 16 người, 51.37 ms
+[Storage] Lưu frame 22 - person_count=16
+[FrameServer] Đã gửi frame 23
+[Processing] Frame 23: phát hiện 16 người, 47.39 ms
+[Storage] Lưu frame 23 - person_count=16
+[FrameServer] Đã gửi frame 24
+[Processing] Frame 24: phát hiện 16 người, 48.81 ms
+[Storage] Lưu frame 24 - person_count=16
+[FrameServer] Đã gửi frame 25
+[Processing] Frame 25: phát hiện 16 người, 42.77 ms
+[Storage] Lưu frame 25 - person_count=16
+[FrameServer] Đã gửi frame 26
+[Processing] Frame 26: phát hiện 15 người, 57.78 ms
+[Storage] Lưu frame 26 - person_count=15
+[FrameServer] Đã gửi frame 27
+[Processing] Frame 27: phát hiện 15 người, 45.54 ms
+[Storage] Lưu frame 27 - person_count=15
+[FrameServer] Đã gửi frame 28
+[Processing] Frame 28: phát hiện 15 người, 43.28 ms
+[Storage] Lưu frame 28 - person_count=15
+[FrameServer] Đã gửi frame 29
+[Processing] Frame 29: phát hiện 16 người, 43.15 ms
+[Storage] Lưu frame 29 - person_count=16
+[FrameServer] Đã gửi frame 30
+[Processing] Frame 30: phát hiện 16 người, 44.1 ms
+[Storage] Lưu frame 30 - person_count=16
+[FrameServer] Đã gửi frame 31
+[Processing] Frame 31: phát hiện 16 người, 94.66 ms
+[Storage] Lưu frame 31 - person_count=16
+[FrameServer] Đã gửi frame 32
+[Processing] Frame 32: phát hiện 15 người, 59.37 ms
+[Storage] Lưu frame 32 - person_count=15
+[FrameServer] Đã gửi frame 33
+[Processing] Frame 33: phát hiện 14 người, 61.11 ms
+[Storage] Lưu frame 33 - person_count=14
+[FrameServer] Đã gửi frame 34
+[Processing] Frame 34: phát hiện 14 người, 60.38 ms
+[Storage] Lưu frame 34 - person_count=14
+[FrameServer] Đã gửi frame 35
+[Processing] Frame 35: phát hiện 15 người, 70.77 ms
+[Storage] Lưu frame 35 - person_count=15
+[FrameServer] Đã gửi frame 36
+[Processing] Frame 36: phát hiện 14 người, 72.6 ms
+[Storage] Lưu frame 36 - person_count=14
+[FrameServer] Đã gửi frame 37
+[Processing] Frame 37: phát hiện 15 người, 77.91 ms
+[Storage] Lưu frame 37 - person_count=15
+[FrameServer] Đã gửi frame 38
+[Processing] Frame 38: phát hiện 14 người, 62.82 ms
+[Storage] Lưu frame 38 - person_count=14
+[FrameServer] Đã gửi frame 39
+[Processing] Frame 39: phát hiện 15 người, 59.44 ms
+[Storage] Lưu frame 39 - person_count=15
+[FrameServer] Đã gửi frame 40
+[Processing] Frame 40: phát hiện 18 người, 59.54 ms
+[Storage] Lưu frame 40 - person_count=18
+[FrameServer] Đã gửi frame 41
+[Processing] Frame 41: phát hiện 16 người, 66.2 ms
+[Storage] Lưu frame 41 - person_count=16
+[FrameServer] Đã gửi frame 42
+[Processing] Frame 42: phát hiện 16 người, 62.29 ms
+[Storage] Lưu frame 42 - person_count=16
+[FrameServer] Đã gửi frame 43
+[Processing] Frame 43: phát hiện 15 người, 61.38 ms
+[Storage] Lưu frame 43 - person_count=15
+[FrameServer] Đã gửi frame 44
+[Processing] Frame 44: phát hiện 16 người, 58.72 ms
+[Storage] Lưu frame 44 - person_count=16
+[FrameServer] Đã gửi frame 45
+[Processing] Frame 45: phát hiện 16 người, 61.91 ms
+[Storage] Lưu frame 45 - person_count=16
+[FrameServer] Đã gửi frame 46
+[Processing] Frame 46: phát hiện 17 người, 54.6 ms
+[Storage] Lưu frame 46 - person_count=17
+[FrameServer] Đã gửi frame 47
+[Processing] Frame 47: phát hiện 16 người, 63.76 ms
+[Storage] Lưu frame 47 - person_count=16
+[FrameServer] Đã gửi frame 48
+[Processing] Frame 48: phát hiện 16 người, 61.48 ms
+[Storage] Lưu frame 48 - person_count=16
+[FrameServer] Đã gửi frame 49
+[Processing] Frame 49: phát hiện 17 người, 68.77 ms
+[Storage] Lưu frame 49 - person_count=17
+[FrameServer] Đã gửi frame 50
+[Processing] Frame 50: phát hiện 16 người, 64.55 ms
+[Storage] Lưu frame 50 - person_count=16
+[FrameServer] Đã gửi frame 51
+[Processing] Frame 51: phát hiện 17 người, 62.47 ms
+[Storage] Lưu frame 51 - person_count=17
+[FrameServer] Đã gửi frame 52
+[Processing] Frame 52: phát hiện 15 người, 65.45 ms
+[Storage] Lưu frame 52 - person_count=15
+[FrameServer] Đã gửi frame 53
+[Processing] Frame 53: phát hiện 14 người, 65.15 ms
+[Storage] Lưu frame 53 - person_count=14
+[FrameServer] Đã gửi frame 54
+[Processing] Frame 54: phát hiện 14 người, 68.79 ms
+[Storage] Lưu frame 54 - person_count=14
+[FrameServer] Đã gửi frame 55
+[Processing] Frame 55: phát hiện 14 người, 60.25 ms
+[Storage] Lưu frame 55 - person_count=14
+[FrameServer] Đã gửi frame 56
+[Processing] Frame 56: phát hiện 13 người, 93.19 ms
+[Storage] Lưu frame 56 - person_count=13
+[FrameServer] Đã gửi frame 57
+[Processing] Frame 57: phát hiện 16 người, 65.12 ms
+[Storage] Lưu frame 57 - person_count=16
+[FrameServer] Đã gửi frame 58
+[Processing] Frame 58: phát hiện 13 người, 70.16 ms
+[Storage] Lưu frame 58 - person_count=13
+[FrameServer] Đã gửi frame 59
+[Processing] Frame 59: phát hiện 13 người, 63.45 ms
+[Storage] Lưu frame 59 - person_count=13
+[FrameServer] Đã gửi frame 60
+[Processing] Frame 60: phát hiện 16 người, 63.36 ms
+[Storage] Lưu frame 60 - person_count=16
+[FrameServer] Đã gửi frame 61
+[Processing] Frame 61: phát hiện 12 người, 63.56 ms
+[Storage] Lưu frame 61 - person_count=12
+[FrameServer] Đã gửi frame 62
+[Processing] Frame 62: phát hiện 14 người, 59.23 ms
+[Storage] Lưu frame 62 - person_count=14
+[FrameServer] Đã gửi frame 63
+[Processing] Frame 63: phát hiện 13 người, 62.92 ms
+[Storage] Lưu frame 63 - person_count=13
+[FrameServer] Đã gửi frame 64
+[Processing] Frame 64: phát hiện 13 người, 63.21 ms
+[Storage] Lưu frame 64 - person_count=13
+[FrameServer] Đã gửi frame 65
+[Processing] Frame 65: phát hiện 13 người, 64.84 ms
+[Storage] Lưu frame 65 - person_count=13
+[FrameServer] Đã gửi frame 66
+[Processing] Frame 66: phát hiện 13 người, 67.22 ms
+[Storage] Lưu frame 66 - person_count=13
+[FrameServer] Đã gửi frame 67
+[Processing] Frame 67: phát hiện 13 người, 59.42 ms
+[Storage] Lưu frame 67 - person_count=13
+[FrameServer] Đã gửi frame 68
+[Processing] Frame 68: phát hiện 15 người, 65.25 ms
+[Storage] Lưu frame 68 - person_count=15
+[FrameServer] Đã gửi frame 69
+[Processing] Frame 69: phát hiện 17 người, 56.81 ms
+[Storage] Lưu frame 69 - person_count=17
+[FrameServer] Đã gửi frame 70
+[Processing] Frame 70: phát hiện 16 người, 70.43 ms
+[Storage] Lưu frame 70 - person_count=16
+[FrameServer] Đã gửi frame 71
+[Processing] Frame 71: phát hiện 15 người, 64.61 ms
+[Storage] Lưu frame 71 - person_count=15
+[FrameServer] Đã gửi frame 72
+[Processing] Frame 72: phát hiện 16 người, 85.68 ms
+[Storage] Lưu frame 72 - person_count=16
+[FrameServer] Đã gửi frame 73
+[Processing] Frame 73: phát hiện 14 người, 58.99 ms
+[Storage] Lưu frame 73 - person_count=14
+[FrameServer] Đã gửi frame 74
+[Processing] Frame 74: phát hiện 14 người, 63.87 ms
+[Storage] Lưu frame 74 - person_count=14
+[FrameServer] Đã gửi frame 75
+[Processing] Frame 75: phát hiện 14 người, 60.47 ms
+[Storage] Lưu frame 75 - person_count=14
+[FrameServer] Đã gửi frame 76
+[Processing] Frame 76: phát hiện 14 người, 75.66 ms
+[Storage] Lưu frame 76 - person_count=14
+[FrameServer] Đã gửi frame 77
+[Processing] Frame 77: phát hiện 15 người, 59.29 ms
+[Storage] Lưu frame 77 - person_count=15
+[FrameServer] Đã gửi frame 78
+[Processing] Frame 78: phát hiện 15 người, 62.1 ms
+[Storage] Lưu frame 78 - person_count=15
+[FrameServer] Đã gửi frame 79
+[Processing] Frame 79: phát hiện 14 người, 64.5 ms
+[Storage] Lưu frame 79 - person_count=14
+[FrameServer] Đã gửi frame 80
+[Processing] Frame 80: phát hiện 14 người, 66.48 ms
+[Storage] Lưu frame 80 - person_count=14
+[FrameServer] Đã gửi frame 81
+[Processing] Frame 81: phát hiện 13 người, 67.39 ms
+[Storage] Lưu frame 81 - person_count=13
+[FrameServer] Đã gửi frame 82
+[Processing] Frame 82: phát hiện 15 người, 60.88 ms
+[Storage] Lưu frame 82 - person_count=15
+[FrameServer] Đã gửi frame 83
+[Processing] Frame 83: phát hiện 14 người, 54.7 ms
+[Storage] Lưu frame 83 - person_count=14
+[FrameServer] Đã gửi frame 84
+[Processing] Frame 84: phát hiện 14 người, 61.44 ms
+[Storage] Lưu frame 84 - person_count=14
+[FrameServer] Đã gửi frame 85
+[Processing] Frame 85: phát hiện 15 người, 56.51 ms
+[Storage] Lưu frame 85 - person_count=15
+[FrameServer] Đã gửi frame 86
+[Processing] Frame 86: phát hiện 15 người, 59.23 ms
+[Storage] Lưu frame 86 - person_count=15
+[FrameServer] Đã gửi frame 87
+[Processing] Frame 87: phát hiện 15 người, 61.1 ms
+[Storage] Lưu frame 87 - person_count=15
+[FrameServer] Đã gửi frame 88
+[Processing] Frame 88: phát hiện 13 người, 58.08 ms
+[Storage] Lưu frame 88 - person_count=13
+[FrameServer] Đã gửi frame 89
+[Processing] Frame 89: phát hiện 14 người, 60.68 ms
+[Storage] Lưu frame 89 - person_count=14
+[FrameServer] Đã gửi frame 90
+[Processing] Frame 90: phát hiện 12 người, 63.53 ms
+[Storage] Lưu frame 90 - person_count=12
+[FrameServer] Đã gửi frame 91
+[Processing] Frame 91: phát hiện 10 người, 61.24 ms
+[Storage] Lưu frame 91 - person_count=10
+[FrameServer] Đã gửi frame 92
+[Processing] Frame 92: phát hiện 11 người, 57.98 ms
+[Storage] Lưu frame 92 - person_count=11
+[FrameServer] Đã gửi frame 93
+[Processing] Frame 93: phát hiện 11 người, 63.92 ms
+[Storage] Lưu frame 93 - person_count=11
+[FrameServer] Đã gửi frame 94
+[Processing] Frame 94: phát hiện 12 người, 55.89 ms
+[Storage] Lưu frame 94 - person_count=12
+[FrameServer] Đã gửi frame 95
+[Processing] Frame 95: phát hiện 11 người, 59.39 ms
+[Storage] Lưu frame 95 - person_count=11
+[FrameServer] Đã gửi frame 96
+[Processing] Frame 96: phát hiện 11 người, 58.7 ms
+[Storage] Lưu frame 96 - person_count=11
+[FrameServer] Đã gửi frame 97
+[Processing] Frame 97: phát hiện 11 người, 62.82 ms
+[Storage] Lưu frame 97 - person_count=11
+[FrameServer] Đã gửi frame 98
+[Processing] Frame 98: phát hiện 12 người, 56.42 ms
+[Storage] Lưu frame 98 - person_count=12
+[FrameServer] Đã gửi frame 99
+[Processing] Frame 99: phát hiện 11 người, 64.03 ms
+[Storage] Lưu frame 99 - person_count=11
+[FrameServer] Đã gửi frame 100
+[Processing] Frame 100: phát hiện 12 người, 56.04 ms
+[Storage] Lưu frame 100 - person_count=12
+[FrameServer] Đã gửi frame 101
+[Processing] Frame 101: phát hiện 12 người, 54.14 ms
+[Storage] Lưu frame 101 - person_count=12
+[FrameServer] Đã gửi frame 102
+[Processing] Frame 102: phát hiện 12 người, 61.18 ms
+[Storage] Lưu frame 102 - person_count=12
+[FrameServer] Đã gửi frame 103
+[Processing] Frame 103: phát hiện 12 người, 60.86 ms
+[Storage] Lưu frame 103 - person_count=12
+[FrameServer] Đã gửi frame 104
+[Processing] Frame 104: phát hiện 12 người, 60.64 ms
+[Storage] Lưu frame 104 - person_count=12
+[FrameServer] Đã gửi frame 105
+[Processing] Frame 105: phát hiện 12 người, 62.61 ms
+[Storage] Lưu frame 105 - person_count=12
+[FrameServer] Đã gửi frame 106
+[Processing] Frame 106: phát hiện 12 người, 60.48 ms
+[Storage] Lưu frame 106 - person_count=12
+[FrameServer] Đã gửi frame 107
+[Processing] Frame 107: phát hiện 12 người, 56.95 ms
+[Storage] Lưu frame 107 - person_count=12
+[FrameServer] Đã gửi frame 108
+[Processing] Frame 108: phát hiện 12 người, 65.69 ms
+[Storage] Lưu frame 108 - person_count=12
+[FrameServer] Đã gửi frame 109
+[Processing] Frame 109: phát hiện 12 người, 68.18 ms
+[Storage] Lưu frame 109 - person_count=12
+[FrameServer] Đã gửi frame 110
+[Processing] Frame 110: phát hiện 13 người, 60.2 ms
+[Storage] Lưu frame 110 - person_count=13
+[FrameServer] Đã gửi frame 111
+[Processing] Frame 111: phát hiện 13 người, 60.07 ms
+[Storage] Lưu frame 111 - person_count=13
+[FrameServer] Đã gửi frame 112
+[Processing] Frame 112: phát hiện 13 người, 85.91 ms
+[Storage] Lưu frame 112 - person_count=13
+[FrameServer] Đã gửi frame 113
+[Processing] Frame 113: phát hiện 12 người, 119.42 ms
+[Storage] Lưu frame 113 - person_count=12
+[FrameServer] Đã gửi frame 114
+[Processing] Frame 114: phát hiện 11 người, 97.09 ms
+[Storage] Lưu frame 114 - person_count=11
+[FrameServer] Đã gửi frame 115
+[Processing] Frame 115: phát hiện 11 người, 106.83 ms
+[Storage] Lưu frame 115 - person_count=11
+[FrameServer] Đã gửi frame 116
+[Processing] Frame 116: phát hiện 12 người, 91.71 ms
+[Storage] Lưu frame 116 - person_count=12
+[FrameServer] Đã gửi frame 117
+[Processing] Frame 117: phát hiện 14 người, 81.64 ms
+[Storage] Lưu frame 117 - person_count=14
+[FrameServer] Đã gửi frame 118
+[Processing] Frame 118: phát hiện 13 người, 89.68 ms
+[Storage] Lưu frame 118 - person_count=13
+[FrameServer] Đã gửi frame 119
+[Processing] Frame 119: phát hiện 13 người, 86.11 ms
+[Storage] Lưu frame 119 - person_count=13
+[FrameServer] Đã gửi frame 120
+[Processing] Frame 120: phát hiện 12 người, 85.8 ms
+[Storage] Lưu frame 120 - person_count=12
+[FrameServer] Đã gửi frame 121
+[Processing] Frame 121: phát hiện 13 người, 82.27 ms
+[Storage] Lưu frame 121 - person_count=13
+[FrameServer] Đã gửi frame 122
+[Processing] Frame 122: phát hiện 13 người, 81.27 ms
+[Storage] Lưu frame 122 - person_count=13
+[FrameServer] Đã gửi frame 123
+[Processing] Frame 123: phát hiện 12 người, 79.88 ms
+[Storage] Lưu frame 123 - person_count=12
+[FrameServer] Đã gửi frame 124
+[Processing] Frame 124: phát hiện 13 người, 86.53 ms
+[Storage] Lưu frame 124 - person_count=13
+[FrameServer] Đã gửi frame 125
+[Processing] Frame 125: phát hiện 13 người, 82.37 ms
+[Storage] Lưu frame 125 - person_count=13
+[FrameServer] Đã gửi frame 126
+[Processing] Frame 126: phát hiện 14 người, 92.85 ms
+[Storage] Lưu frame 126 - person_count=14
+[FrameServer] Đã gửi frame 127
+[Processing] Frame 127: phát hiện 13 người, 115.29 ms
+[Storage] Lưu frame 127 - person_count=13
+[FrameServer] Đã gửi frame 128
+[Processing] Frame 128: phát hiện 14 người, 104.55 ms
+[Storage] Lưu frame 128 - person_count=14
+[FrameServer] Đã gửi frame 129
+[Processing] Frame 129: phát hiện 15 người, 90.58 ms
+[Storage] Lưu frame 129 - person_count=15
+[FrameServer] Đã gửi frame 130
+[Processing] Frame 130: phát hiện 16 người, 90.62 ms
+[Storage] Lưu frame 130 - person_count=16
+[FrameServer] Đã gửi frame 131
+[Processing] Frame 131: phát hiện 15 người, 81.51 ms
+[Storage] Lưu frame 131 - person_count=15
+[FrameServer] Đã gửi frame 132
+[Processing] Frame 132: phát hiện 15 người, 78.62 ms
+[Storage] Lưu frame 132 - person_count=15
+[FrameServer] Đã gửi frame 133
+[Processing] Frame 133: phát hiện 14 người, 95.07 ms
+[Storage] Lưu frame 133 - person_count=14
+[FrameServer] Đã gửi frame 134
+[Processing] Frame 134: phát hiện 16 người, 86.77 ms
+[Storage] Lưu frame 134 - person_count=16
+[FrameServer] Đã gửi frame 135
+[Processing] Frame 135: phát hiện 15 người, 84.9 ms
+[Storage] Lưu frame 135 - person_count=15
+[FrameServer] Đã gửi frame 136
+[Processing] Frame 136: phát hiện 14 người, 88.75 ms
+[Storage] Lưu frame 136 - person_count=14
+[FrameServer] Đã gửi frame 137
+[Processing] Frame 137: phát hiện 16 người, 83.31 ms
+[Storage] Lưu frame 137 - person_count=16
+[FrameServer] Đã gửi frame 138
+[Processing] Frame 138: phát hiện 17 người, 103.59 ms
+[Storage] Lưu frame 138 - person_count=17
+[FrameServer] Đã gửi frame 139
+[Processing] Frame 139: phát hiện 16 người, 91.31 ms
+[Storage] Lưu frame 139 - person_count=16
+[FrameServer] Đã gửi frame 140
+[Processing] Frame 140: phát hiện 16 người, 74.48 ms
+[Storage] Lưu frame 140 - person_count=16
+[FrameServer] Đã gửi frame 141
+[Processing] Frame 141: phát hiện 16 người, 79.25 ms
+[Storage] Lưu frame 141 - person_count=16
+[FrameServer] Đã gửi frame 142
+[Processing] Frame 142: phát hiện 17 người, 87.06 ms
+[Storage] Lưu frame 142 - person_count=17
+[FrameServer] Đã gửi frame 143
+[Processing] Frame 143: phát hiện 17 người, 90.28 ms
+[Storage] Lưu frame 143 - person_count=17
+[FrameServer] Đã gửi frame 144
+[Processing] Frame 144: phát hiện 17 người, 81.96 ms
+[Storage] Lưu frame 144 - person_count=17
+[FrameServer] Đã gửi frame 145
+[Processing] Frame 145: phát hiện 16 người, 97.14 ms
+[Storage] Lưu frame 145 - person_count=16
+[FrameServer] Đã gửi frame 146
+[Processing] Frame 146: phát hiện 17 người, 74.25 ms
+[Storage] Lưu frame 146 - person_count=17
+[FrameServer] Đã gửi frame 147
+[Processing] Frame 147: phát hiện 15 người, 80.72 ms
+[Storage] Lưu frame 147 - person_count=15
+[FrameServer] Đã gửi frame 148
+[Processing] Frame 148: phát hiện 15 người, 77.54 ms
+[Storage] Lưu frame 148 - person_count=15
+[FrameServer] Đã gửi frame 149
+[Processing] Frame 149: phát hiện 15 người, 78.63 ms
+[Storage] Lưu frame 149 - person_count=15
+[FrameServer] Đã gửi frame 150
+[Processing] Frame 150: phát hiện 15 người, 81.92 ms
+[Storage] Lưu frame 150 - person_count=15
+[FrameServer] Đã gửi tín hiệu kết thúc stream.
+[Processing] Nhận end_stream, chuyển tiếp sang Storage Server.
+[Storage] Đã nhận end_stream. Summary đã lưu tại output\experiments\city_square_20260611_013521\results\summary.json
+[Storage] Frames=150, Avg persons/frame=14.48
+[Demo] Tạo report cho experiment: city_square_20260611_013521
+[Report] city_square_20260611_013521: engine=python_fallback, frames=150, avg=14.48
+[Report] Fallback: Người dùng chọn --force-python
+
+[Demo] Hoàn tất từ đầu đến cuối.
+[Demo] Output riêng của video nằm tại: output\experiments\city_square_20260611_013521
+
+================================================================================
+[RunAll] (2/3) Chạy video: crowd_city.mp4
+================================================================================
+[Demo] Start Storage Server: C:\Users\nguye\Downloads\DS200_Lab05\.venv\Scripts\python.exe src/storage_server.py --host 127.0.0.1 --port 6300
+[Storage] Đang lắng nghe tại 127.0.0.1:6300
+[Storage] Mỗi video sẽ được lưu riêng trong output\experiments\<experiment_name>
+[Storage] Nhấn Ctrl+C để dừng.
+[Demo] Start Processing Server: C:\Users\nguye\Downloads\DS200_Lab05\.venv\Scripts\python.exe src/processing_server.py --host 127.0.0.1 --port 6200 --storage-host 127.0.0.1 --storage-port 6300 --conf 0.25 --save-annotated
+[Processing] Đã tải model YOLO: yolov8n.pt
+[Processing] Đã kết nối Storage Server tại 127.0.0.1:6300
+[Storage] Processing Server đã kết nối từ ('127.0.0.1', 51062)
+[Processing] Đang lắng nghe frame tại 127.0.0.1:6200
+[Processing] Nhấn Ctrl+C để dừng.
+[FrameServer] Đã kết nối Processing Server tại 127.0.0.1:6200
+[FrameServer] Source: data\video\crowd_city.mp4
+[Processing] Frame Server đã kết nối từ ('127.0.0.1', 60257)
+[FrameServer] Experiment: crowd_city_20260611_013614
+[FrameServer] Đã gửi frame 1
+[FrameServer] Đã gửi frame 2
+[Processing] Frame 1: phát hiện 8 người, 211.61 ms
+[Storage] Tạo thư mục lưu kết quả cho experiment: crowd_city_20260611_013614
+[Storage] Lưu frame 1 - person_count=8
+[Processing] Frame 2: phát hiện 7 người, 129.32 ms
+[Storage] Lưu frame 2 - person_count=7
+[FrameServer] Đã gửi frame 3
+[Processing] Frame 3: phát hiện 7 người, 106.2 ms
+[Storage] Lưu frame 3 - person_count=7
+[FrameServer] Đã gửi frame 4
+[Processing] Frame 4: phát hiện 7 người, 78.84 ms
+[Storage] Lưu frame 4 - person_count=7
+[FrameServer] Đã gửi frame 5
+[Processing] Frame 5: phát hiện 8 người, 99.52 ms
+[Storage] Lưu frame 5 - person_count=8
+[FrameServer] Đã gửi frame 6
+[Processing] Frame 6: phát hiện 8 người, 88.46 ms
+[Storage] Lưu frame 6 - person_count=8
+[FrameServer] Đã gửi frame 7
+[Processing] Frame 7: phát hiện 8 người, 85.74 ms
+[Storage] Lưu frame 7 - person_count=8
+[FrameServer] Đã gửi frame 8
+[Processing] Frame 8: phát hiện 6 người, 90.73 ms
+[Storage] Lưu frame 8 - person_count=6
+[FrameServer] Đã gửi frame 9
+[Processing] Frame 9: phát hiện 7 người, 93.31 ms
+[Storage] Lưu frame 9 - person_count=7
+[FrameServer] Đã gửi frame 10
+[Processing] Frame 10: phát hiện 7 người, 88.13 ms
+[Storage] Lưu frame 10 - person_count=7
+[FrameServer] Đã gửi frame 11
+[Processing] Frame 11: phát hiện 7 người, 92.91 ms
+[Storage] Lưu frame 11 - person_count=7
+[FrameServer] Đã gửi frame 12
+[Processing] Frame 12: phát hiện 8 người, 96.52 ms
+[Storage] Lưu frame 12 - person_count=8
+[FrameServer] Đã gửi frame 13
+[Processing] Frame 13: phát hiện 7 người, 96.67 ms
+[Storage] Lưu frame 13 - person_count=7
+[FrameServer] Đã gửi frame 14
+[Processing] Frame 14: phát hiện 7 người, 90.64 ms
+[Storage] Lưu frame 14 - person_count=7
+[FrameServer] Đã gửi frame 15
+[Processing] Frame 15: phát hiện 7 người, 78.11 ms
+[Storage] Lưu frame 15 - person_count=7
+[FrameServer] Đã gửi frame 16
+[Processing] Frame 16: phát hiện 6 người, 83.1 ms
+[Storage] Lưu frame 16 - person_count=6
+[FrameServer] Đã gửi frame 17
+[Processing] Frame 17: phát hiện 6 người, 85.06 ms
+[Storage] Lưu frame 17 - person_count=6
+[FrameServer] Đã gửi frame 18
+[Processing] Frame 18: phát hiện 7 người, 85.11 ms
+[Storage] Lưu frame 18 - person_count=7
+[FrameServer] Đã gửi frame 19
+[Processing] Frame 19: phát hiện 6 người, 85.3 ms
+[Storage] Lưu frame 19 - person_count=6
+[FrameServer] Đã gửi frame 20
+[Processing] Frame 20: phát hiện 6 người, 85.83 ms
+[Storage] Lưu frame 20 - person_count=6
+[FrameServer] Đã gửi frame 21
+[Processing] Frame 21: phát hiện 7 người, 90.12 ms
+[Storage] Lưu frame 21 - person_count=7
+[FrameServer] Đã gửi frame 22
+[Processing] Frame 22: phát hiện 8 người, 91.88 ms
+[Storage] Lưu frame 22 - person_count=8
+[FrameServer] Đã gửi frame 23
+[Processing] Frame 23: phát hiện 8 người, 89.64 ms
+[Storage] Lưu frame 23 - person_count=8
+[FrameServer] Đã gửi frame 24
+[Processing] Frame 24: phát hiện 8 người, 91.7 ms
+[Storage] Lưu frame 24 - person_count=8
+[FrameServer] Đã gửi frame 25
+[Processing] Frame 25: phát hiện 8 người, 82.42 ms
+[Storage] Lưu frame 25 - person_count=8
+[FrameServer] Đã gửi frame 26
+[Processing] Frame 26: phát hiện 8 người, 85.23 ms
+[Storage] Lưu frame 26 - person_count=8
+[FrameServer] Đã gửi frame 27
+[Processing] Frame 27: phát hiện 8 người, 81.05 ms
+[Storage] Lưu frame 27 - person_count=8
+[FrameServer] Đã gửi frame 28
+[Processing] Frame 28: phát hiện 8 người, 88.73 ms
+[Storage] Lưu frame 28 - person_count=8
+[FrameServer] Đã gửi frame 29
+[Processing] Frame 29: phát hiện 8 người, 85.23 ms
+[Storage] Lưu frame 29 - person_count=8
+[FrameServer] Đã gửi frame 30
+[Processing] Frame 30: phát hiện 9 người, 78.4 ms
+[Storage] Lưu frame 30 - person_count=9
+[FrameServer] Đã gửi frame 31
+[Processing] Frame 31: phát hiện 9 người, 79.78 ms
+[Storage] Lưu frame 31 - person_count=9
+[FrameServer] Đã gửi frame 32
+[Processing] Frame 32: phát hiện 11 người, 75.07 ms
+[Storage] Lưu frame 32 - person_count=11
+[FrameServer] Đã gửi frame 33
+[Processing] Frame 33: phát hiện 10 người, 84.77 ms
+[Storage] Lưu frame 33 - person_count=10
+[FrameServer] Đã gửi frame 34
+[Processing] Frame 34: phát hiện 10 người, 82.15 ms
+[Storage] Lưu frame 34 - person_count=10
+[FrameServer] Đã gửi frame 35
+[Processing] Frame 35: phát hiện 8 người, 77.09 ms
+[Storage] Lưu frame 35 - person_count=8
+[FrameServer] Đã gửi frame 36
+[Processing] Frame 36: phát hiện 8 người, 91.59 ms
+[Storage] Lưu frame 36 - person_count=8
+[FrameServer] Đã gửi frame 37
+[Processing] Frame 37: phát hiện 8 người, 80.43 ms
+[Storage] Lưu frame 37 - person_count=8
+[FrameServer] Đã gửi frame 38
+[Processing] Frame 38: phát hiện 8 người, 80.38 ms
+[Storage] Lưu frame 38 - person_count=8
+[FrameServer] Đã gửi frame 39
+[Processing] Frame 39: phát hiện 8 người, 91.82 ms
+[Storage] Lưu frame 39 - person_count=8
+[FrameServer] Đã gửi frame 40
+[Processing] Frame 40: phát hiện 7 người, 78.72 ms
+[Storage] Lưu frame 40 - person_count=7
+[FrameServer] Đã gửi frame 41
+[Processing] Frame 41: phát hiện 6 người, 80.39 ms
+[Storage] Lưu frame 41 - person_count=6
+[FrameServer] Đã gửi frame 42
+[Processing] Frame 42: phát hiện 6 người, 82.55 ms
+[Storage] Lưu frame 42 - person_count=6
+[FrameServer] Đã gửi frame 43
+[Processing] Frame 43: phát hiện 5 người, 78.57 ms
+[Storage] Lưu frame 43 - person_count=5
+[FrameServer] Đã gửi frame 44
+[Processing] Frame 44: phát hiện 5 người, 76.69 ms
+[Storage] Lưu frame 44 - person_count=5
+[FrameServer] Đã gửi frame 45
+[Processing] Frame 45: phát hiện 6 người, 78.69 ms
+[Storage] Lưu frame 45 - person_count=6
+[FrameServer] Đã gửi frame 46
+[Processing] Frame 46: phát hiện 7 người, 76.62 ms
+[Storage] Lưu frame 46 - person_count=7
+[FrameServer] Đã gửi frame 47
+[Processing] Frame 47: phát hiện 6 người, 80.85 ms
+[Storage] Lưu frame 47 - person_count=6
+[FrameServer] Đã gửi frame 48
+[Processing] Frame 48: phát hiện 5 người, 80.54 ms
+[Storage] Lưu frame 48 - person_count=5
+[FrameServer] Đã gửi frame 49
+[Processing] Frame 49: phát hiện 7 người, 83.48 ms
+[Storage] Lưu frame 49 - person_count=7
+[FrameServer] Đã gửi frame 50
+[Processing] Frame 50: phát hiện 7 người, 77.38 ms
+[Storage] Lưu frame 50 - person_count=7
+[FrameServer] Đã gửi frame 51
+[Processing] Frame 51: phát hiện 7 người, 76.85 ms
+[Storage] Lưu frame 51 - person_count=7
+[FrameServer] Đã gửi frame 52
+[Processing] Frame 52: phát hiện 7 người, 76.6 ms
+[Storage] Lưu frame 52 - person_count=7
+[FrameServer] Đã gửi frame 53
+[Processing] Frame 53: phát hiện 8 người, 85.65 ms
+[Storage] Lưu frame 53 - person_count=8
+[FrameServer] Đã gửi frame 54
+[Processing] Frame 54: phát hiện 7 người, 86.24 ms
+[Storage] Lưu frame 54 - person_count=7
+[FrameServer] Đã gửi frame 55
+[Processing] Frame 55: phát hiện 7 người, 86.05 ms
+[Storage] Lưu frame 55 - person_count=7
+[FrameServer] Đã gửi frame 56
+[Processing] Frame 56: phát hiện 8 người, 84.74 ms
+[Storage] Lưu frame 56 - person_count=8
+[FrameServer] Đã gửi frame 57
+[Processing] Frame 57: phát hiện 7 người, 84.73 ms
+[Storage] Lưu frame 57 - person_count=7
+[FrameServer] Đã gửi frame 58
+[Processing] Frame 58: phát hiện 7 người, 84.46 ms
+[Storage] Lưu frame 58 - person_count=7
+[FrameServer] Đã gửi frame 59
+[Processing] Frame 59: phát hiện 7 người, 85.03 ms
+[Storage] Lưu frame 59 - person_count=7
+[FrameServer] Đã gửi frame 60
+[Processing] Frame 60: phát hiện 7 người, 82.98 ms
+[Storage] Lưu frame 60 - person_count=7
+[FrameServer] Đã gửi frame 61
+[Processing] Frame 61: phát hiện 7 người, 85.67 ms
+[Storage] Lưu frame 61 - person_count=7
+[FrameServer] Đã gửi frame 62
+[Processing] Frame 62: phát hiện 7 người, 76.94 ms
+[Storage] Lưu frame 62 - person_count=7
+[FrameServer] Đã gửi frame 63
+[Processing] Frame 63: phát hiện 7 người, 76.98 ms
+[Storage] Lưu frame 63 - person_count=7
+[FrameServer] Đã gửi frame 64
+[Processing] Frame 64: phát hiện 7 người, 79.72 ms
+[Storage] Lưu frame 64 - person_count=7
+[FrameServer] Đã gửi frame 65
+[Processing] Frame 65: phát hiện 7 người, 80.26 ms
+[Storage] Lưu frame 65 - person_count=7
+[FrameServer] Đã gửi frame 66
+[Processing] Frame 66: phát hiện 8 người, 80.77 ms
+[Storage] Lưu frame 66 - person_count=8
+[FrameServer] Đã gửi frame 67
+[Processing] Frame 67: phát hiện 8 người, 88.48 ms
+[Storage] Lưu frame 67 - person_count=8
+[FrameServer] Đã gửi frame 68
+[Processing] Frame 68: phát hiện 7 người, 82.54 ms
+[Storage] Lưu frame 68 - person_count=7
+[FrameServer] Đã gửi frame 69
+[Processing] Frame 69: phát hiện 7 người, 81.08 ms
+[Storage] Lưu frame 69 - person_count=7
+[FrameServer] Đã gửi frame 70
+[Processing] Frame 70: phát hiện 8 người, 81.37 ms
+[Storage] Lưu frame 70 - person_count=8
+[FrameServer] Đã gửi frame 71
+[Processing] Frame 71: phát hiện 7 người, 87.0 ms
+[Storage] Lưu frame 71 - person_count=7
+[FrameServer] Đã gửi frame 72
+[Processing] Frame 72: phát hiện 6 người, 82.14 ms
+[Storage] Lưu frame 72 - person_count=6
+[FrameServer] Đã gửi frame 73
+[Processing] Frame 73: phát hiện 7 người, 85.65 ms
+[Storage] Lưu frame 73 - person_count=7
+[FrameServer] Đã gửi frame 74
+[Processing] Frame 74: phát hiện 7 người, 80.31 ms
+[Storage] Lưu frame 74 - person_count=7
+[FrameServer] Đã gửi frame 75
+[Processing] Frame 75: phát hiện 7 người, 84.22 ms
+[Storage] Lưu frame 75 - person_count=7
+[FrameServer] Đã gửi frame 76
+[Processing] Frame 76: phát hiện 8 người, 83.86 ms
+[Storage] Lưu frame 76 - person_count=8
+[FrameServer] Đã gửi frame 77
+[Processing] Frame 77: phát hiện 7 người, 82.13 ms
+[Storage] Lưu frame 77 - person_count=7
+[FrameServer] Đã gửi frame 78
+[Processing] Frame 78: phát hiện 7 người, 79.76 ms
+[Storage] Lưu frame 78 - person_count=7
+[FrameServer] Đã gửi frame 79
+[Processing] Frame 79: phát hiện 7 người, 84.35 ms
+[Storage] Lưu frame 79 - person_count=7
+[FrameServer] Đã gửi frame 80
+[Processing] Frame 80: phát hiện 7 người, 82.28 ms
+[Storage] Lưu frame 80 - person_count=7
+[FrameServer] Đã gửi frame 81
+[Processing] Frame 81: phát hiện 8 người, 77.78 ms
+[Storage] Lưu frame 81 - person_count=8
+[FrameServer] Đã gửi frame 82
+[Processing] Frame 82: phát hiện 7 người, 79.85 ms
+[Storage] Lưu frame 82 - person_count=7
+[FrameServer] Đã gửi frame 83
+[Processing] Frame 83: phát hiện 7 người, 79.26 ms
+[Storage] Lưu frame 83 - person_count=7
+[FrameServer] Đã gửi frame 84
+[Processing] Frame 84: phát hiện 7 người, 85.29 ms
+[Storage] Lưu frame 84 - person_count=7
+[FrameServer] Đã gửi frame 85
+[Processing] Frame 85: phát hiện 7 người, 87.12 ms
+[Storage] Lưu frame 85 - person_count=7
+[FrameServer] Đã gửi frame 86
+[Processing] Frame 86: phát hiện 7 người, 87.48 ms
+[Storage] Lưu frame 86 - person_count=7
+[FrameServer] Đã gửi frame 87
+[Processing] Frame 87: phát hiện 7 người, 92.32 ms
+[Storage] Lưu frame 87 - person_count=7
+[FrameServer] Đã gửi frame 88
+[Processing] Frame 88: phát hiện 8 người, 87.77 ms
+[Storage] Lưu frame 88 - person_count=8
+[FrameServer] Đã gửi frame 89
+[Processing] Frame 89: phát hiện 8 người, 83.1 ms
+[Storage] Lưu frame 89 - person_count=8
+[FrameServer] Đã gửi frame 90
+[Processing] Frame 90: phát hiện 8 người, 82.35 ms
+[Storage] Lưu frame 90 - person_count=8
+[FrameServer] Đã gửi frame 91
+[Processing] Frame 91: phát hiện 8 người, 80.69 ms
+[Storage] Lưu frame 91 - person_count=8
+[FrameServer] Đã gửi frame 92
+[Processing] Frame 92: phát hiện 8 người, 79.23 ms
+[Storage] Lưu frame 92 - person_count=8
+[FrameServer] Đã gửi frame 93
+[Processing] Frame 93: phát hiện 7 người, 77.89 ms
+[Storage] Lưu frame 93 - person_count=7
+[FrameServer] Đã gửi frame 94
+[Processing] Frame 94: phát hiện 7 người, 82.14 ms
+[Storage] Lưu frame 94 - person_count=7
+[FrameServer] Đã gửi frame 95
+[Processing] Frame 95: phát hiện 6 người, 81.12 ms
+[Storage] Lưu frame 95 - person_count=6
+[FrameServer] Đã gửi frame 96
+[Processing] Frame 96: phát hiện 7 người, 79.25 ms
+[Storage] Lưu frame 96 - person_count=7
+[FrameServer] Đã gửi frame 97
+[Processing] Frame 97: phát hiện 7 người, 82.38 ms
+[Storage] Lưu frame 97 - person_count=7
+[FrameServer] Đã gửi frame 98
+[Processing] Frame 98: phát hiện 6 người, 76.61 ms
+[Storage] Lưu frame 98 - person_count=6
+[FrameServer] Đã gửi frame 99
+[Processing] Frame 99: phát hiện 6 người, 75.59 ms
+[Storage] Lưu frame 99 - person_count=6
+[FrameServer] Đã gửi frame 100
+[Processing] Frame 100: phát hiện 7 người, 85.79 ms
+[Storage] Lưu frame 100 - person_count=7
+[FrameServer] Đã gửi frame 101
+[Processing] Frame 101: phát hiện 7 người, 85.08 ms
+[Storage] Lưu frame 101 - person_count=7
+[FrameServer] Đã gửi frame 102
+[Processing] Frame 102: phát hiện 7 người, 81.35 ms
+[Storage] Lưu frame 102 - person_count=7
+[FrameServer] Đã gửi frame 103
+[Processing] Frame 103: phát hiện 7 người, 85.53 ms
+[Storage] Lưu frame 103 - person_count=7
+[FrameServer] Đã gửi frame 104
+[Processing] Frame 104: phát hiện 7 người, 84.7 ms
+[Storage] Lưu frame 104 - person_count=7
+[FrameServer] Đã gửi frame 105
+[Processing] Frame 105: phát hiện 7 người, 85.75 ms
+[Storage] Lưu frame 105 - person_count=7
+[FrameServer] Đã gửi frame 106
+[Processing] Frame 106: phát hiện 7 người, 83.19 ms
+[Storage] Lưu frame 106 - person_count=7
+[FrameServer] Đã gửi frame 107
+[Processing] Frame 107: phát hiện 7 người, 82.07 ms
+[Storage] Lưu frame 107 - person_count=7
+[FrameServer] Đã gửi frame 108
+[Processing] Frame 108: phát hiện 7 người, 85.19 ms
+[Storage] Lưu frame 108 - person_count=7
+[FrameServer] Đã gửi frame 109
+[Processing] Frame 109: phát hiện 7 người, 77.57 ms
+[Storage] Lưu frame 109 - person_count=7
+[FrameServer] Đã gửi frame 110
+[Processing] Frame 110: phát hiện 7 người, 84.99 ms
+[Storage] Lưu frame 110 - person_count=7
+[FrameServer] Đã gửi frame 111
+[Processing] Frame 111: phát hiện 7 người, 85.53 ms
+[Storage] Lưu frame 111 - person_count=7
+[FrameServer] Đã gửi frame 112
+[Processing] Frame 112: phát hiện 7 người, 95.27 ms
+[Storage] Lưu frame 112 - person_count=7
+[FrameServer] Đã gửi frame 113
+[Processing] Frame 113: phát hiện 7 người, 89.18 ms
+[Storage] Lưu frame 113 - person_count=7
+[FrameServer] Đã gửi frame 114
+[Processing] Frame 114: phát hiện 7 người, 118.54 ms
+[Storage] Lưu frame 114 - person_count=7
+[FrameServer] Đã gửi frame 115
+[Processing] Frame 115: phát hiện 7 người, 98.31 ms
+[Storage] Lưu frame 115 - person_count=7
+[FrameServer] Đã gửi frame 116
+[Processing] Frame 116: phát hiện 7 người, 108.05 ms
+[Storage] Lưu frame 116 - person_count=7
+[FrameServer] Đã gửi frame 117
+[Processing] Frame 117: phát hiện 7 người, 104.72 ms
+[Storage] Lưu frame 117 - person_count=7
+[FrameServer] Đã gửi frame 118
+[Processing] Frame 118: phát hiện 7 người, 119.42 ms
+[Storage] Lưu frame 118 - person_count=7
+[FrameServer] Đã gửi frame 119
+[Processing] Frame 119: phát hiện 7 người, 137.08 ms
+[Storage] Lưu frame 119 - person_count=7
+[FrameServer] Đã gửi frame 120
+[Processing] Frame 120: phát hiện 7 người, 128.54 ms
+[Storage] Lưu frame 120 - person_count=7
+[FrameServer] Đã gửi frame 121
+[Processing] Frame 121: phát hiện 7 người, 130.42 ms
+[Storage] Lưu frame 121 - person_count=7
+[FrameServer] Đã gửi frame 122
+[Processing] Frame 122: phát hiện 7 người, 130.63 ms
+[Storage] Lưu frame 122 - person_count=7
+[FrameServer] Đã gửi frame 123
+[Processing] Frame 123: phát hiện 7 người, 121.53 ms
+[Storage] Lưu frame 123 - person_count=7
+[FrameServer] Đã gửi frame 124
+[Processing] Frame 124: phát hiện 7 người, 131.85 ms
+[Storage] Lưu frame 124 - person_count=7
+[FrameServer] Đã gửi frame 125
+[Processing] Frame 125: phát hiện 6 người, 134.58 ms
+[Storage] Lưu frame 125 - person_count=6
+[FrameServer] Đã gửi frame 126
+[Processing] Frame 126: phát hiện 6 người, 121.87 ms
+[Storage] Lưu frame 126 - person_count=6
+[FrameServer] Đã gửi frame 127
+[Processing] Frame 127: phát hiện 7 người, 121.28 ms
+[Storage] Lưu frame 127 - person_count=7
+[FrameServer] Đã gửi frame 128
+[Processing] Frame 128: phát hiện 6 người, 116.55 ms
+[Storage] Lưu frame 128 - person_count=6
+[FrameServer] Đã gửi frame 129
+[Processing] Frame 129: phát hiện 5 người, 122.55 ms
+[Storage] Lưu frame 129 - person_count=5
+[FrameServer] Đã gửi frame 130
+[Processing] Frame 130: phát hiện 5 người, 130.21 ms
+[Storage] Lưu frame 130 - person_count=5
+[FrameServer] Đã gửi frame 131
+[Processing] Frame 131: phát hiện 5 người, 113.26 ms
+[Storage] Lưu frame 131 - person_count=5
+[FrameServer] Đã gửi frame 132
+[Processing] Frame 132: phát hiện 5 người, 89.17 ms
+[Storage] Lưu frame 132 - person_count=5
+[FrameServer] Đã gửi frame 133
+[Processing] Frame 133: phát hiện 4 người, 90.04 ms
+[Storage] Lưu frame 133 - person_count=4
+[FrameServer] Đã gửi frame 134
+[Processing] Frame 134: phát hiện 4 người, 86.0 ms
+[Storage] Lưu frame 134 - person_count=4
+[FrameServer] Đã gửi frame 135
+[Processing] Frame 135: phát hiện 5 người, 84.19 ms
+[Storage] Lưu frame 135 - person_count=5
+[FrameServer] Đã gửi frame 136
+[Processing] Frame 136: phát hiện 4 người, 130.32 ms
+[Storage] Lưu frame 136 - person_count=4
+[FrameServer] Đã gửi frame 137
+[Processing] Frame 137: phát hiện 5 người, 141.04 ms
+[Storage] Lưu frame 137 - person_count=5
+[FrameServer] Đã gửi frame 138
+[Processing] Frame 138: phát hiện 11 người, 127.95 ms
+[Storage] Lưu frame 138 - person_count=11
+[FrameServer] Đã gửi frame 139
+[Processing] Frame 139: phát hiện 12 người, 133.31 ms
+[Storage] Lưu frame 139 - person_count=12
+[FrameServer] Đã gửi frame 140
+[Processing] Frame 140: phát hiện 12 người, 136.39 ms
+[Storage] Lưu frame 140 - person_count=12
+[FrameServer] Đã gửi frame 141
+[Processing] Frame 141: phát hiện 12 người, 127.59 ms
+[Storage] Lưu frame 141 - person_count=12
+[FrameServer] Đã gửi frame 142
+[Processing] Frame 142: phát hiện 10 người, 124.25 ms
+[Storage] Lưu frame 142 - person_count=10
+[FrameServer] Đã gửi frame 143
+[Processing] Frame 143: phát hiện 12 người, 137.97 ms
+[Storage] Lưu frame 143 - person_count=12
+[FrameServer] Đã gửi frame 144
+[Processing] Frame 144: phát hiện 11 người, 124.2 ms
+[Storage] Lưu frame 144 - person_count=11
+[FrameServer] Đã gửi frame 145
+[Processing] Frame 145: phát hiện 10 người, 141.11 ms
+[Storage] Lưu frame 145 - person_count=10
+[FrameServer] Đã gửi frame 146
+[Processing] Frame 146: phát hiện 9 người, 128.23 ms
+[Storage] Lưu frame 146 - person_count=9
+[FrameServer] Đã gửi frame 147
+[Processing] Frame 147: phát hiện 8 người, 130.18 ms
+[Storage] Lưu frame 147 - person_count=8
+[FrameServer] Đã gửi frame 148
+[Processing] Frame 148: phát hiện 8 người, 120.31 ms
+[Storage] Lưu frame 148 - person_count=8
+[FrameServer] Đã gửi frame 149
+[Processing] Frame 149: phát hiện 7 người, 138.72 ms
+[Storage] Lưu frame 149 - person_count=7
+[FrameServer] Đã gửi frame 150
+[FrameServer] Đã gửi tín hiệu kết thúc stream.
+[Processing] Frame 150: phát hiện 10 người, 134.4 ms
+[Storage] Lưu frame 150 - person_count=10
+[Processing] Nhận end_stream, chuyển tiếp sang Storage Server.
+[Storage] Đã nhận end_stream. Summary đã lưu tại output\experiments\crowd_city_20260611_013614\results\summary.json
+[Storage] Frames=150, Avg persons/frame=7.28
+[Demo] Tạo report cho experiment: crowd_city_20260611_013614
+[Report] crowd_city_20260611_013614: engine=python_fallback, frames=150, avg=7.28
+[Report] Fallback: Người dùng chọn --force-python
+
+[Demo] Hoàn tất từ đầu đến cuối.
+[Demo] Output riêng của video nằm tại: output\experiments\crowd_city_20260611_013614
+
+================================================================================
+[RunAll] (3/3) Chạy video: sidewalk.mp4
+================================================================================
+[Demo] Start Storage Server: C:\Users\nguye\Downloads\DS200_Lab05\.venv\Scripts\python.exe src/storage_server.py --host 127.0.0.1 --port 6300
+[Storage] Đang lắng nghe tại 127.0.0.1:6300
+[Storage] Mỗi video sẽ được lưu riêng trong output\experiments\<experiment_name>
+[Storage] Nhấn Ctrl+C để dừng.
+[Demo] Start Processing Server: C:\Users\nguye\Downloads\DS200_Lab05\.venv\Scripts\python.exe src/processing_server.py --host 127.0.0.1 --port 6200 --storage-host 127.0.0.1 --storage-port 6300 --conf 0.25 --save-annotated
+[Processing] Đã tải model YOLO: yolov8n.pt
+[Processing] Đã kết nối Storage Server tại 127.0.0.1:6300
+[Storage] Processing Server đã kết nối từ ('127.0.0.1', 64703)
+[Processing] Đang lắng nghe frame tại 127.0.0.1:6200
+[Processing] Nhấn Ctrl+C để dừng.
+[FrameServer] Đã kết nối Processing Server tại 127.0.0.1:6200
+[FrameServer] Source: data\video\sidewalk.mp4
+[FrameServer] Experiment: sidewalk_20260611_013714
+[Processing] Frame Server đã kết nối từ ('127.0.0.1', 64704)
+[FrameServer] Đã gửi frame 1
+[Processing] Frame 1: phát hiện 3 người, 129.79 ms
+[Storage] Tạo thư mục lưu kết quả cho experiment: sidewalk_20260611_013714
+[Storage] Lưu frame 1 - person_count=3
+[FrameServer] Đã gửi frame 2
+[Processing] Frame 2: phát hiện 3 người, 53.68 ms
+[Storage] Lưu frame 2 - person_count=3
+[FrameServer] Đã gửi frame 3
+[Processing] Frame 3: phát hiện 4 người, 55.81 ms
+[Storage] Lưu frame 3 - person_count=4
+[FrameServer] Đã gửi frame 4
+[Processing] Frame 4: phát hiện 1 người, 58.72 ms
+[Storage] Lưu frame 4 - person_count=1
+[FrameServer] Đã gửi frame 5
+[Processing] Frame 5: phát hiện 2 người, 55.94 ms
+[Storage] Lưu frame 5 - person_count=2
+[FrameServer] Đã gửi frame 6
+[Processing] Frame 6: phát hiện 2 người, 56.9 ms
+[Storage] Lưu frame 6 - person_count=2
+[FrameServer] Đã gửi frame 7
+[Processing] Frame 7: phát hiện 1 người, 58.32 ms
+[Storage] Lưu frame 7 - person_count=1
+[FrameServer] Đã gửi frame 8
+[Processing] Frame 8: phát hiện 1 người, 59.09 ms
+[Storage] Lưu frame 8 - person_count=1
+[FrameServer] Đã gửi frame 9
+[Processing] Frame 9: phát hiện 2 người, 54.99 ms
+[Storage] Lưu frame 9 - person_count=2
+[FrameServer] Đã gửi frame 10
+[Processing] Frame 10: phát hiện 2 người, 55.04 ms
+[Storage] Lưu frame 10 - person_count=2
+[FrameServer] Đã gửi frame 11
+[Processing] Frame 11: phát hiện 2 người, 53.47 ms
+[Storage] Lưu frame 11 - person_count=2
+[FrameServer] Đã gửi frame 12
+[Processing] Frame 12: phát hiện 3 người, 57.91 ms
+[Storage] Lưu frame 12 - person_count=3
+[FrameServer] Đã gửi frame 13
+[Processing] Frame 13: phát hiện 2 người, 55.65 ms
+[Storage] Lưu frame 13 - person_count=2
+[FrameServer] Đã gửi frame 14
+[Processing] Frame 14: phát hiện 3 người, 59.06 ms
+[Storage] Lưu frame 14 - person_count=3
+[FrameServer] Đã gửi frame 15
+[Processing] Frame 15: phát hiện 3 người, 54.29 ms
+[Storage] Lưu frame 15 - person_count=3
+[FrameServer] Đã gửi frame 16
+[Processing] Frame 16: phát hiện 3 người, 53.98 ms
+[Storage] Lưu frame 16 - person_count=3
+[FrameServer] Đã gửi frame 17
+[Processing] Frame 17: phát hiện 3 người, 58.23 ms
+[Storage] Lưu frame 17 - person_count=3
+[FrameServer] Đã gửi frame 18
+[Processing] Frame 18: phát hiện 3 người, 57.58 ms
+[Storage] Lưu frame 18 - person_count=3
+[FrameServer] Đã gửi frame 19
+[Processing] Frame 19: phát hiện 3 người, 53.4 ms
+[Storage] Lưu frame 19 - person_count=3
+[FrameServer] Đã gửi frame 20
+[Processing] Frame 20: phát hiện 2 người, 54.81 ms
+[Storage] Lưu frame 20 - person_count=2
+[FrameServer] Đã gửi frame 21
+[Processing] Frame 21: phát hiện 2 người, 56.82 ms
+[Storage] Lưu frame 21 - person_count=2
+[FrameServer] Đã gửi frame 22
+[Processing] Frame 22: phát hiện 2 người, 57.13 ms
+[Storage] Lưu frame 22 - person_count=2
+[FrameServer] Đã gửi frame 23
+[Processing] Frame 23: phát hiện 2 người, 58.13 ms
+[Storage] Lưu frame 23 - person_count=2
+[FrameServer] Đã gửi frame 24
+[Processing] Frame 24: phát hiện 2 người, 60.46 ms
+[Storage] Lưu frame 24 - person_count=2
+[FrameServer] Đã gửi frame 25
+[Processing] Frame 25: phát hiện 4 người, 62.3 ms
+[Storage] Lưu frame 25 - person_count=4
+[FrameServer] Đã gửi frame 26
+[Processing] Frame 26: phát hiện 3 người, 62.76 ms
+[Storage] Lưu frame 26 - person_count=3
+[FrameServer] Đã gửi frame 27
+[Processing] Frame 27: phát hiện 2 người, 68.59 ms
+[Storage] Lưu frame 27 - person_count=2
+[FrameServer] Đã gửi frame 28
+[Processing] Frame 28: phát hiện 2 người, 75.98 ms
+[Storage] Lưu frame 28 - person_count=2
+[FrameServer] Đã gửi frame 29
+[Processing] Frame 29: phát hiện 2 người, 89.3 ms
+[Storage] Lưu frame 29 - person_count=2
+[FrameServer] Đã gửi frame 30
+[Processing] Frame 30: phát hiện 3 người, 89.43 ms
+[Storage] Lưu frame 30 - person_count=3
+[FrameServer] Đã gửi frame 31
+[Processing] Frame 31: phát hiện 2 người, 81.47 ms
+[Storage] Lưu frame 31 - person_count=2
+[FrameServer] Đã gửi frame 32
+[Processing] Frame 32: phát hiện 3 người, 82.08 ms
+[Storage] Lưu frame 32 - person_count=3
+[FrameServer] Đã gửi frame 33
+[Processing] Frame 33: phát hiện 3 người, 88.34 ms
+[Storage] Lưu frame 33 - person_count=3
+[FrameServer] Đã gửi frame 34
+[Processing] Frame 34: phát hiện 5 người, 95.58 ms
+[Storage] Lưu frame 34 - person_count=5
+[FrameServer] Đã gửi frame 35
+[Processing] Frame 35: phát hiện 5 người, 79.75 ms
+[Storage] Lưu frame 35 - person_count=5
+[FrameServer] Đã gửi frame 36
+[Processing] Frame 36: phát hiện 5 người, 82.47 ms
+[Storage] Lưu frame 36 - person_count=5
+[FrameServer] Đã gửi frame 37
+[Processing] Frame 37: phát hiện 5 người, 71.12 ms
+[Storage] Lưu frame 37 - person_count=5
+[FrameServer] Đã gửi frame 38
+[Processing] Frame 38: phát hiện 5 người, 67.87 ms
+[Storage] Lưu frame 38 - person_count=5
+[FrameServer] Đã gửi frame 39
+[Processing] Frame 39: phát hiện 6 người, 79.35 ms
+[Storage] Lưu frame 39 - person_count=6
+[FrameServer] Đã gửi frame 40
+[Processing] Frame 40: phát hiện 5 người, 86.92 ms
+[Storage] Lưu frame 40 - person_count=5
+[FrameServer] Đã gửi frame 41
+[Processing] Frame 41: phát hiện 4 người, 78.44 ms
+[Storage] Lưu frame 41 - person_count=4
+[FrameServer] Đã gửi frame 42
+[Processing] Frame 42: phát hiện 5 người, 82.95 ms
+[Storage] Lưu frame 42 - person_count=5
+[FrameServer] Đã gửi frame 43
+[Processing] Frame 43: phát hiện 5 người, 78.64 ms
+[Storage] Lưu frame 43 - person_count=5
+[FrameServer] Đã gửi frame 44
+[Processing] Frame 44: phát hiện 5 người, 71.74 ms
+[Storage] Lưu frame 44 - person_count=5
+[FrameServer] Đã gửi frame 45
+[Processing] Frame 45: phát hiện 6 người, 83.1 ms
+[Storage] Lưu frame 45 - person_count=6
+[FrameServer] Đã gửi frame 46
+[Processing] Frame 46: phát hiện 6 người, 74.77 ms
+[Storage] Lưu frame 46 - person_count=6
+[FrameServer] Đã gửi frame 47
+[Processing] Frame 47: phát hiện 8 người, 75.58 ms
+[Storage] Lưu frame 47 - person_count=8
+[FrameServer] Đã gửi frame 48
+[Processing] Frame 48: phát hiện 7 người, 76.33 ms
+[Storage] Lưu frame 48 - person_count=7
+[FrameServer] Đã gửi frame 49
+[Processing] Frame 49: phát hiện 8 người, 80.67 ms
+[Storage] Lưu frame 49 - person_count=8
+[FrameServer] Đã gửi frame 50
+[Processing] Frame 50: phát hiện 7 người, 71.2 ms
+[Storage] Lưu frame 50 - person_count=7
+[FrameServer] Đã gửi frame 51
+[Processing] Frame 51: phát hiện 5 người, 86.77 ms
+[Storage] Lưu frame 51 - person_count=5
+[FrameServer] Đã gửi frame 52
+[Processing] Frame 52: phát hiện 5 người, 81.98 ms
+[Storage] Lưu frame 52 - person_count=5
+[FrameServer] Đã gửi frame 53
+[Processing] Frame 53: phát hiện 5 người, 82.87 ms
+[Storage] Lưu frame 53 - person_count=5
+[FrameServer] Đã gửi frame 54
+[Processing] Frame 54: phát hiện 5 người, 81.5 ms
+[Storage] Lưu frame 54 - person_count=5
+[FrameServer] Đã gửi frame 55
+[Processing] Frame 55: phát hiện 6 người, 73.0 ms
+[Storage] Lưu frame 55 - person_count=6
+[FrameServer] Đã gửi frame 56
+[Processing] Frame 56: phát hiện 5 người, 78.15 ms
+[Storage] Lưu frame 56 - person_count=5
+[FrameServer] Đã gửi frame 57
+[Processing] Frame 57: phát hiện 5 người, 80.13 ms
+[Storage] Lưu frame 57 - person_count=5
+[FrameServer] Đã gửi frame 58
+[Processing] Frame 58: phát hiện 5 người, 74.22 ms
+[Storage] Lưu frame 58 - person_count=5
+[FrameServer] Đã gửi frame 59
+[Processing] Frame 59: phát hiện 7 người, 71.62 ms
+[Storage] Lưu frame 59 - person_count=7
+[FrameServer] Đã gửi frame 60
+[Processing] Frame 60: phát hiện 8 người, 70.89 ms
+[Storage] Lưu frame 60 - person_count=8
+[FrameServer] Đã gửi frame 61
+[Processing] Frame 61: phát hiện 8 người, 67.55 ms
+[Storage] Lưu frame 61 - person_count=8
+[FrameServer] Đã gửi frame 62
+[Processing] Frame 62: phát hiện 3 người, 89.32 ms
+[Storage] Lưu frame 62 - person_count=3
+[FrameServer] Đã gửi frame 63
+[Processing] Frame 63: phát hiện 3 người, 104.59 ms
+[Storage] Lưu frame 63 - person_count=3
+[FrameServer] Đã gửi frame 64
+[Processing] Frame 64: phát hiện 2 người, 90.17 ms
+[Storage] Lưu frame 64 - person_count=2
+[FrameServer] Đã gửi frame 65
+[Processing] Frame 65: phát hiện 2 người, 85.21 ms
+[Storage] Lưu frame 65 - person_count=2
+[FrameServer] Đã gửi frame 66
+[Processing] Frame 66: phát hiện 3 người, 99.78 ms
+[Storage] Lưu frame 66 - person_count=3
+[FrameServer] Đã gửi frame 67
+[Processing] Frame 67: phát hiện 3 người, 83.05 ms
+[Storage] Lưu frame 67 - person_count=3
+[FrameServer] Đã gửi frame 68
+[Processing] Frame 68: phát hiện 4 người, 83.4 ms
+[Storage] Lưu frame 68 - person_count=4
+[FrameServer] Đã gửi frame 69
+[Processing] Frame 69: phát hiện 2 người, 79.89 ms
+[Storage] Lưu frame 69 - person_count=2
+[FrameServer] Đã gửi frame 70
+[Processing] Frame 70: phát hiện 0 người, 78.7 ms
+[Storage] Lưu frame 70 - person_count=0
+[FrameServer] Đã gửi frame 71
+[Processing] Frame 71: phát hiện 1 người, 81.09 ms
+[Storage] Lưu frame 71 - person_count=1
+[FrameServer] Đã gửi frame 72
+[Processing] Frame 72: phát hiện 2 người, 85.5 ms
+[Storage] Lưu frame 72 - person_count=2
+[FrameServer] Đã gửi frame 73
+[Processing] Frame 73: phát hiện 4 người, 73.71 ms
+[Storage] Lưu frame 73 - person_count=4
+[FrameServer] Đã gửi frame 74
+[Processing] Frame 74: phát hiện 2 người, 77.43 ms
+[Storage] Lưu frame 74 - person_count=2
+[FrameServer] Đã gửi frame 75
+[Processing] Frame 75: phát hiện 0 người, 83.6 ms
+[Storage] Lưu frame 75 - person_count=0
+[FrameServer] Đã gửi frame 76
+[Processing] Frame 76: phát hiện 0 người, 84.58 ms
+[Storage] Lưu frame 76 - person_count=0
+[FrameServer] Đã gửi frame 77
+[Processing] Frame 77: phát hiện 2 người, 86.08 ms
+[Storage] Lưu frame 77 - person_count=2
+[FrameServer] Đã gửi frame 78
+[Processing] Frame 78: phát hiện 3 người, 80.08 ms
+[Storage] Lưu frame 78 - person_count=3
+[FrameServer] Đã gửi frame 79
+[Processing] Frame 79: phát hiện 2 người, 96.87 ms
+[Storage] Lưu frame 79 - person_count=2
+[FrameServer] Đã gửi frame 80
+[Processing] Frame 80: phát hiện 3 người, 89.29 ms
+[Storage] Lưu frame 80 - person_count=3
+[FrameServer] Đã gửi frame 81
+[Processing] Frame 81: phát hiện 1 người, 68.06 ms
+[Storage] Lưu frame 81 - person_count=1
+[FrameServer] Đã gửi frame 82
+[Processing] Frame 82: phát hiện 1 người, 74.3 ms
+[Storage] Lưu frame 82 - person_count=1
+[FrameServer] Đã gửi frame 83
+[Processing] Frame 83: phát hiện 2 người, 75.94 ms
+[Storage] Lưu frame 83 - person_count=2
+[FrameServer] Đã gửi frame 84
+[Processing] Frame 84: phát hiện 4 người, 86.08 ms
+[Storage] Lưu frame 84 - person_count=4
+[FrameServer] Đã gửi frame 85
+[Processing] Frame 85: phát hiện 6 người, 73.72 ms
+[Storage] Lưu frame 85 - person_count=6
+[FrameServer] Đã gửi frame 86
+[Processing] Frame 86: phát hiện 4 người, 81.93 ms
+[Storage] Lưu frame 86 - person_count=4
+[FrameServer] Đã gửi frame 87
+[Processing] Frame 87: phát hiện 4 người, 81.93 ms
+[Storage] Lưu frame 87 - person_count=4
+[FrameServer] Đã gửi frame 88
+[Processing] Frame 88: phát hiện 3 người, 96.99 ms
+[Storage] Lưu frame 88 - person_count=3
+[FrameServer] Đã gửi frame 89
+[Processing] Frame 89: phát hiện 3 người, 93.53 ms
+[Storage] Lưu frame 89 - person_count=3
+[FrameServer] Đã gửi frame 90
+[Processing] Frame 90: phát hiện 4 người, 86.15 ms
+[Storage] Lưu frame 90 - person_count=4
+[FrameServer] Đã gửi frame 91
+[Processing] Frame 91: phát hiện 2 người, 116.98 ms
+[Storage] Lưu frame 91 - person_count=2
+[FrameServer] Đã gửi frame 92
+[Processing] Frame 92: phát hiện 2 người, 83.24 ms
+[Storage] Lưu frame 92 - person_count=2
+[FrameServer] Đã gửi frame 93
+[Processing] Frame 93: phát hiện 4 người, 85.14 ms
+[Storage] Lưu frame 93 - person_count=4
+[FrameServer] Đã gửi frame 94
+[Processing] Frame 94: phát hiện 4 người, 86.34 ms
+[Storage] Lưu frame 94 - person_count=4
+[FrameServer] Đã gửi frame 95
+[Processing] Frame 95: phát hiện 4 người, 80.64 ms
+[Storage] Lưu frame 95 - person_count=4
+[FrameServer] Đã gửi frame 96
+[Processing] Frame 96: phát hiện 2 người, 76.85 ms
+[Storage] Lưu frame 96 - person_count=2
+[FrameServer] Đã gửi frame 97
+[Processing] Frame 97: phát hiện 3 người, 77.38 ms
+[Storage] Lưu frame 97 - person_count=3
+[FrameServer] Đã gửi frame 98
+[Processing] Frame 98: phát hiện 2 người, 76.76 ms
+[Storage] Lưu frame 98 - person_count=2
+[FrameServer] Đã gửi frame 99
+[Processing] Frame 99: phát hiện 2 người, 81.5 ms
+[Storage] Lưu frame 99 - person_count=2
+[FrameServer] Đã gửi frame 100
+[Processing] Frame 100: phát hiện 2 người, 72.42 ms
+[Storage] Lưu frame 100 - person_count=2
+[FrameServer] Đã gửi frame 101
+[Processing] Frame 101: phát hiện 0 người, 78.75 ms
+[Storage] Lưu frame 101 - person_count=0
+[FrameServer] Đã gửi frame 102
+[Processing] Frame 102: phát hiện 1 người, 73.71 ms
+[Storage] Lưu frame 102 - person_count=1
+[FrameServer] Đã gửi frame 103
+[Processing] Frame 103: phát hiện 1 người, 66.43 ms
+[Storage] Lưu frame 103 - person_count=1
+[FrameServer] Đã gửi frame 104
+[Processing] Frame 104: phát hiện 3 người, 78.81 ms
+[Storage] Lưu frame 104 - person_count=3
+[FrameServer] Đã gửi frame 105
+[Processing] Frame 105: phát hiện 2 người, 83.02 ms
+[Storage] Lưu frame 105 - person_count=2
+[FrameServer] Đã gửi frame 106
+[Processing] Frame 106: phát hiện 1 người, 93.64 ms
+[Storage] Lưu frame 106 - person_count=1
+[FrameServer] Đã gửi frame 107
+[Processing] Frame 107: phát hiện 1 người, 105.32 ms
+[Storage] Lưu frame 107 - person_count=1
+[FrameServer] Đã gửi frame 108
+[Processing] Frame 108: phát hiện 3 người, 90.65 ms
+[Storage] Lưu frame 108 - person_count=3
+[FrameServer] Đã gửi frame 109
+[Processing] Frame 109: phát hiện 3 người, 92.81 ms
+[Storage] Lưu frame 109 - person_count=3
+[FrameServer] Đã gửi frame 110
+[Processing] Frame 110: phát hiện 2 người, 96.28 ms
+[Storage] Lưu frame 110 - person_count=2
+[FrameServer] Đã gửi frame 111
+[Processing] Frame 111: phát hiện 2 người, 92.18 ms
+[Storage] Lưu frame 111 - person_count=2
+[FrameServer] Đã gửi frame 112
+[Processing] Frame 112: phát hiện 3 người, 82.74 ms
+[Storage] Lưu frame 112 - person_count=3
+[FrameServer] Đã gửi frame 113
+[Processing] Frame 113: phát hiện 3 người, 90.66 ms
+[Storage] Lưu frame 113 - person_count=3
+[FrameServer] Đã gửi frame 114
+[Processing] Frame 114: phát hiện 3 người, 85.68 ms
+[Storage] Lưu frame 114 - person_count=3
+[FrameServer] Đã gửi frame 115
+[Processing] Frame 115: phát hiện 4 người, 80.55 ms
+[Storage] Lưu frame 115 - person_count=4
+[FrameServer] Đã gửi frame 116
+[Processing] Frame 116: phát hiện 4 người, 77.54 ms
+[Storage] Lưu frame 116 - person_count=4
+[FrameServer] Đã gửi frame 117
+[Processing] Frame 117: phát hiện 4 người, 75.92 ms
+[Storage] Lưu frame 117 - person_count=4
+[FrameServer] Đã gửi frame 118
+[Processing] Frame 118: phát hiện 4 người, 58.45 ms
+[Storage] Lưu frame 118 - person_count=4
+[FrameServer] Đã gửi frame 119
+[Processing] Frame 119: phát hiện 4 người, 60.68 ms
+[Storage] Lưu frame 119 - person_count=4
+[FrameServer] Đã gửi frame 120
+[Processing] Frame 120: phát hiện 5 người, 64.14 ms
+[Storage] Lưu frame 120 - person_count=5
+[FrameServer] Đã gửi frame 121
+[Processing] Frame 121: phát hiện 5 người, 56.4 ms
+[Storage] Lưu frame 121 - person_count=5
+[FrameServer] Đã gửi frame 122
+[Processing] Frame 122: phát hiện 4 người, 48.75 ms
+[Storage] Lưu frame 122 - person_count=4
+[FrameServer] Đã gửi frame 123
+[Processing] Frame 123: phát hiện 4 người, 51.68 ms
+[Storage] Lưu frame 123 - person_count=4
+[FrameServer] Đã gửi frame 124
+[Processing] Frame 124: phát hiện 5 người, 59.47 ms
+[Storage] Lưu frame 124 - person_count=5
+[FrameServer] Đã gửi frame 125
+[Processing] Frame 125: phát hiện 4 người, 64.83 ms
+[Storage] Lưu frame 125 - person_count=4
+[FrameServer] Đã gửi frame 126
+[Processing] Frame 126: phát hiện 3 người, 57.72 ms
+[Storage] Lưu frame 126 - person_count=3
+[FrameServer] Đã gửi frame 127
+[Processing] Frame 127: phát hiện 4 người, 54.31 ms
+[Storage] Lưu frame 127 - person_count=4
+[FrameServer] Đã gửi frame 128
+[Processing] Frame 128: phát hiện 5 người, 60.42 ms
+[Storage] Lưu frame 128 - person_count=5
+[FrameServer] Đã gửi frame 129
+[Processing] Frame 129: phát hiện 5 người, 51.66 ms
+[Storage] Lưu frame 129 - person_count=5
+[FrameServer] Đã gửi frame 130
+[Processing] Frame 130: phát hiện 2 người, 53.47 ms
+[Storage] Lưu frame 130 - person_count=2
+[FrameServer] Đã gửi frame 131
+[Processing] Frame 131: phát hiện 2 người, 53.42 ms
+[Storage] Lưu frame 131 - person_count=2
+[FrameServer] Đã gửi frame 132
+[Processing] Frame 132: phát hiện 1 người, 57.85 ms
+[Storage] Lưu frame 132 - person_count=1
+[FrameServer] Đã gửi frame 133
+[Processing] Frame 133: phát hiện 1 người, 59.57 ms
+[Storage] Lưu frame 133 - person_count=1
+[FrameServer] Đã gửi frame 134
+[Processing] Frame 134: phát hiện 1 người, 46.23 ms
+[Storage] Lưu frame 134 - person_count=1
+[FrameServer] Đã gửi frame 135
+[Processing] Frame 135: phát hiện 2 người, 83.86 ms
+[Storage] Lưu frame 135 - person_count=2
+[FrameServer] Đã gửi frame 136
+[Processing] Frame 136: phát hiện 3 người, 59.8 ms
+[Storage] Lưu frame 136 - person_count=3
+[FrameServer] Đã gửi frame 137
+[Processing] Frame 137: phát hiện 2 người, 52.63 ms
+[Storage] Lưu frame 137 - person_count=2
+[FrameServer] Đã gửi frame 138
+[Processing] Frame 138: phát hiện 1 người, 53.78 ms
+[Storage] Lưu frame 138 - person_count=1
+[FrameServer] Đã gửi frame 139
+[Processing] Frame 139: phát hiện 1 người, 50.6 ms
+[Storage] Lưu frame 139 - person_count=1
+[FrameServer] Đã gửi frame 140
+[Processing] Frame 140: phát hiện 1 người, 72.93 ms
+[Storage] Lưu frame 140 - person_count=1
+[FrameServer] Đã gửi frame 141
+[Processing] Frame 141: phát hiện 2 người, 50.42 ms
+[Storage] Lưu frame 141 - person_count=2
+[FrameServer] Đã gửi frame 142
+[Processing] Frame 142: phát hiện 2 người, 58.2 ms
+[Storage] Lưu frame 142 - person_count=2
+[FrameServer] Đã gửi frame 143
+[Storage] Lưu frame 143 - person_count=3
+[Processing] Frame 143: phát hiện 3 người, 53.47 ms
+[FrameServer] Đã gửi frame 144
+[Processing] Frame 144: phát hiện 4 người, 51.83 ms
+[Storage] Lưu frame 144 - person_count=4
+[FrameServer] Đã gửi frame 145
+[Processing] Frame 145: phát hiện 3 người, 58.54 ms
+[Storage] Lưu frame 145 - person_count=3
+[FrameServer] Đã gửi frame 146
+[Processing] Frame 146: phát hiện 3 người, 51.72 ms
+[Storage] Lưu frame 146 - person_count=3
+[FrameServer] Đã gửi frame 147
+[Processing] Frame 147: phát hiện 4 người, 49.63 ms
+[Storage] Lưu frame 147 - person_count=4
+[FrameServer] Đã gửi frame 148
+[Processing] Frame 148: phát hiện 4 người, 49.95 ms
+[Storage] Lưu frame 148 - person_count=4
+[FrameServer] Đã gửi frame 149
+[Processing] Frame 149: phát hiện 3 người, 53.22 ms
+[Storage] Lưu frame 149 - person_count=3
+[FrameServer] Đã gửi frame 150
+[Processing] Frame 150: phát hiện 3 người, 51.88 ms
+[Storage] Lưu frame 150 - person_count=3
+[FrameServer] Đã gửi tín hiệu kết thúc stream.
+[Processing] Nhận end_stream, chuyển tiếp sang Storage Server.
+[Storage] Đã nhận end_stream. Summary đã lưu tại output\experiments\sidewalk_20260611_013714\results\summary.json
+[Storage] Frames=150, Avg persons/frame=3.2067
+[Demo] Tạo report cho experiment: sidewalk_20260611_013714
+[Report] sidewalk_20260611_013714: engine=python_fallback, frames=150, avg=3.2067
+[Report] Fallback: Người dùng chọn --force-python
+
+[Demo] Hoàn tất từ đầu đến cuối.
+[Demo] Output riêng của video nằm tại: output\experiments\sidewalk_20260611_013714
+
+[RunAll] Đã chạy xong tất cả video.
+[Report] city_square_20260611_013521: engine=python_fallback, frames=150, avg=14.48
+[Report] Fallback: Java hiện tại là 8, PySpark mới cần Java 17; dùng Python fallback
+[Report] crowd_city_20260611_013614: engine=python_fallback, frames=150, avg=7.28
+[Report] Fallback: Java hiện tại là 8, PySpark mới cần Java 17; dùng Python fallback
+[Report] sidewalk_20260611_013714: engine=python_fallback, frames=150, avg=3.2067
+[Report] Fallback: Java hiện tại là 8, PySpark mới cần Java 17; dùng Python fallback
+[Report] Đã lưu tổng hợp tất cả experiments: output\all_experiments_summary.csv
