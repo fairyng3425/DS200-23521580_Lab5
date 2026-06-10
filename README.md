@@ -134,5 +134,3 @@ Kết quả chi tiết được lưu trong thư mục `output/experiments` và f
 
 * Video đầu vào được đặt trong thư mục `data/video`.
 * Kết quả của mỗi video được lưu tách riêng, không ghi đè lên nhau.
-* File video được quản lý bằng Git LFS thông qua `.gitattributes`.
-* Chương trình có thể tạo report bằng PySpark nếu môi trường hỗ trợ Java phù hợp. Trong trường hợp máy không hỗ trợ Spark/Java tương thích, chương trình dùng Python fallback để vẫn tạo được báo cáo thống kê.
