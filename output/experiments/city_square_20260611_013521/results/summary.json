@@ -1,0 +1,21 @@
+{
+  "generated_at": "2026-06-11T01:36:11",
+  "experiment_name": "city_square_20260611_013521",
+  "camera_id": "camera_01",
+  "source": "data\\video\\city_square.mp4",
+  "frames_processed": 150,
+  "total_person_detections": 2172,
+  "avg_persons_per_frame": 14.48,
+  "max_persons_in_frame": 19,
+  "min_persons_in_frame": 10,
+  "avg_processing_time_ms": 70.4137,
+  "max_processing_time_ms": 279.0,
+  "min_processing_time_ms": 42.71,
+  "running_time_seconds": 32.85,
+  "files": {
+    "jsonl": "output\\experiments\\city_square_20260611_013521\\results\\detections.jsonl",
+    "csv": "output\\experiments\\city_square_20260611_013521\\results\\detections.csv",
+    "summary": "output\\experiments\\city_square_20260611_013521\\results\\summary.json",
+    "annotated_frames_dir": "output\\experiments\\city_square_20260611_013521\\annotated_frames"
+  }
+}
